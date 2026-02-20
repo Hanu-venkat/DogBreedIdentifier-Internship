@@ -11,6 +11,7 @@ Image Classification using Deep Learning
 CNN / Transfer Learning Techniques
 Model Inference with Keras
 Practical AI Application Development
+
 ✨ Features
 ✔ Dog breed prediction from images
 ✔ Pretrained model included
