@@ -1,40 +1,43 @@
-🐶 Dog Breed Classifier
-A Deep Learning–based Dog Breed Classification system built using TensorFlow and Keras.
-This model predicts the breed of a dog from an input image using a trained Convolutional Neural Network (CNN).
+# 🐶 Dog Breed Identification Using Transfer Learning
 
-📌 Project Overview
-The Dog Breed Classifier is a computer vision project designed to automatically identify dog breeds from images. The system leverages deep learning techniques to extract visual features and classify images into learned breed categories.
+## 📌 Project Overview
+The Dog Breed Identification project is a deep learning–based computer vision system designed to automatically identify the breed of a dog from an input image.  
+The system uses a pre-trained Convolutional Neural Network (CNN) with transfer learning to achieve high accuracy and efficient performance.
 
-This project demonstrates:
+---
 
-Image Classification using Deep Learning
-CNN / Transfer Learning Techniques
-Model Inference with Keras
-Practical AI Application Development
+## ✨ Features
+- Dog breed prediction from images  
+- Transfer learning–based CNN model  
+- Pre-trained model included  
+- Lightweight and clean project structure  
+- Supports common image formats (JPG, PNG)
 
-✨ Features
-✔ Dog breed prediction from images
-✔ Pretrained model included
-✔ Supports common image formats (.jpg, .png)
-✔ Easy inference pipeline
-✔ Clean, lightweight project structure
+---
 
-🧠 Model Information
-The repository contains pretrained Keras models:
+## 🧠 Model Information
+This repository contains pre-trained Keras models:
+- `dog_breed_model.h5`
+- `dog_breed_model.keras`
 
-dog_breed_model.h5
-dog_breed_model.keras
 These models can be directly loaded for prediction without retraining.
 
-📂 Dataset
-Training data is included as:
+---
 
-data.zip
-This archive contains labeled dog breed images used to train the classifier.
+## 📁 Dataset
+The dataset consists of labeled dog breed images used for training the classifier.  
+Images were preprocessed and resized before training.
 
-(Dataset details such as number of breeds depend on the training configuration.)
+---
 
-🛠 Requirements
-Install dependencies:
+## ⚙️ Technologies Used
+- Python  
+- TensorFlow & Keras  
+- Pre-trained CNN Models (Transfer Learning)  
+- Image Processing Libraries (OpenCV, NumPy)
 
+---
+
+## 🚀 How to Run
+```bash
 pip install tensorflow numpy pillow matplotlib
