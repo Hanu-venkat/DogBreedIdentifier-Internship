@@ -1,43 +1,50 @@
-# 🐶 Dog Breed Identification Using Transfer Learning
+# Dog Breed Identification Using Transfer Learning
 
 ## 📌 Project Overview
-The Dog Breed Identification project is a deep learning–based computer vision system designed to automatically identify the breed of a dog from an input image.  
-The system uses a pre-trained Convolutional Neural Network (CNN) with transfer learning to achieve high accuracy and efficient performance.
-
----
-
-## ✨ Features
-- Dog breed prediction from images  
-- Transfer learning–based CNN model  
-- Pre-trained model included  
-- Lightweight and clean project structure  
-- Supports common image formats (JPG, PNG)
+This project implements a deep learning–based system to identify the breed of a dog from an input image.  
+It uses **Transfer Learning** with a pre-trained Convolutional Neural Network (CNN) to achieve high accuracy while reducing training time and computational cost.
 
 ---
 
 ## 🧠 Model Information
-This repository contains pre-trained Keras models:
-- `dog_breed_model.h5`
-- `dog_breed_model.keras`
+The project uses **pre-trained CNN models** fine-tuned on a dog breed dataset.
 
-These models can be directly loaded for prediction without retraining.
+### Included Model Files:
+- `dog_breed_model.h5`  
+- `dog_breed_model.keras`  
+
+These models are trained using transfer learning techniques and can be directly loaded for prediction without retraining.
 
 ---
 
 ## 📁 Dataset
-The dataset consists of labeled dog breed images used for training the classifier.  
-Images were preprocessed and resized before training.
+The dataset consists of labeled dog images representing multiple breeds.
+
+### Dataset Details:
+- Images categorized by dog breed  
+- Data preprocessed (resizing, normalization)  
+- Used for training and validation  
+
+The dataset is provided in compressed format:
+- `data.zip`
+
+*(Dataset size and number of breeds depend on training configuration.)*
 
 ---
 
-## ⚙️ Technologies Used
-- Python  
-- TensorFlow & Keras  
-- Pre-trained CNN Models (Transfer Learning)  
-- Image Processing Libraries (OpenCV, NumPy)
+## ⚙️ Requirements
+To run this project, the following software requirements are needed:
 
----
+### Software Requirements:
+- Python 3.x  
+- TensorFlow  
+- Keras  
+- NumPy  
+- OpenCV  
+- Pillow  
+- Matplotlib  
 
-## 🚀 How to Run
+Install dependencies using:
 ```bash
-pip install tensorflow numpy pillow matplotlib
+pip install tensorflow keras numpy opencv-python pillow matplotlib
+
